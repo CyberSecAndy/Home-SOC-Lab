@@ -1,0 +1,81 @@
+# VirtualBox and Virtualization
+*.vbox
+*.vbox-prev
+*.vdi
+*.vmdk
+*.iso
+
+# Log files
+*.log
+logs/
+
+# PCAP files (can be large)
+*.pcap
+*.pcapng
+*.cap
+
+# Credentials and secrets
+.env
+.env.local
+secrets/
+*.key
+*.pem
+password*.txt
+credentials*.txt
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.vim/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+.~*
+
+# System
+.AppleDouble
+.LSOverride
+$RECYCLE.BIN/
+
+# Node (if using any node-based tools)
+node_modules/
+npm-debug.log
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Documentation builds
+site/
+_build/
+docs/_build/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
